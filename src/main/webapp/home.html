@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JMS Sample Page</title>
+    <script src="js/fetch.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <div id="home">
+        <textarea id="messageSent" placeholder="Enter Message" maxlength="254"></textarea>
+        <br>
+        <button onclick="sendMessage()">Send</button>
+        <br>
+        <div id="msgdisplay">
+            <p id="messageReceived" ></p>
+        </div>
+        <button onclick="getMessage()">Receive</button>
+        <!-- <img id="pokemonSprite" src="" alt="Pokemon Sprite" style="display: none;"/> -->
+        <div id="snackbar"></div>
+    </div>
+</body>
+</html>
